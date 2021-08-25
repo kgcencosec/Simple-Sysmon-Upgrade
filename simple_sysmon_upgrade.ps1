@@ -10,7 +10,7 @@ This is a simple upgrade script and as such just uses hashes to determine if an 
 #Set these according to your needs.
 
 #Desired Sysmon File Hash, set this to the SHA256 hash of the Sysmon.exe that you need to install. The hash below is for the 64bit version of Sysmon 11.0 (I removed the 64 to work with some other scripts I use, you could easily add it back if needed.)
-$desiredSysmonFileHash = '4B4FBC90DC093DB04DC55D1AE00A243459A335178D2D5ECD92508E8DA2D7DFDA'
+$desiredSysmonFileHash = '0F7F896359D51A875173FC391729C2BFAC1AC335C7D7CAC8C83EDC34A08E58A1'
 
 #Current Sysmon Service Name
 $sysmonService = 'sysmon'
